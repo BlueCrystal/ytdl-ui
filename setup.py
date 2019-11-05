@@ -7,12 +7,12 @@ DESCRIPTION = 'webui for youtube-dl'
 LONG_DESCRIPTION = 'Another webui for youtube-dl, powered by youtube-dl'
 
 setup (
-        name='youtube_dl_webui',
-        version='rolling',
-        packages=['youtube_dl_webui'],
+        name='ytdl_ui',
+        version='0.2.2',
+        packages=['ytdl_ui'],
         license='GPL-2.0',
-        author='d0u9, yuanyingfeiyu',
-        author_email='d0u9.su@outlook.com',
+        author='squizduos, d0u9, yuanyingfeiyu',
+        author_email='squizduos@gmail.com',
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         include_package_data=True,
@@ -23,7 +23,7 @@ setup (
         ],
         entry_points={
             'console_scripts': [
-                'youtube-dl-webui = youtube_dl_webui:main'
+                'ytdl_ui = ytdl_ui:main'
             ]
         },
 )

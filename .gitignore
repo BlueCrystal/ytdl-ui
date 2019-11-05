@@ -90,3 +90,10 @@ ENV/
 
 # Other file types
 *.swp
+
+# Local Pipfile
+Pipfile
+Pipfile.lock
+
+# Local database
+*.db

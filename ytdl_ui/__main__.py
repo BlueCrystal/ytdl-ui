@@ -17,14 +17,14 @@ else:
     dirname = os.path.dirname(path)
 
 
-import youtube_dl_webui
+import ytdl_ui
 
 if __name__ == '__main__':
     # Setup logger
-    logging_json = os.path.join(dirname, 'logging.json')
+    logging_json = os.path.join(dirname, 'config', 'logging.json')
     with open(logging_json) as f:
         logging_conf = json.load(f)
     logging.config.dictConfig(logging_conf)
 
-    youtube_dl_webui.main()
+    ytdl_ui.main()
 

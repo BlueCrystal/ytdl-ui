@@ -1,4 +1,4 @@
-# RELEASE LOG
+# Changelog
 
 ---
 
@@ -26,3 +26,7 @@ Lot of updates here in this new version.
 ## 0.2.1
 
 Some bugs fix.
+
+## 0.2.2
+
+Updated youtube-dl and fixed issues with updating.

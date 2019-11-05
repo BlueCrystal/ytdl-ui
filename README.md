@@ -57,6 +57,26 @@ A server will be started locally. The default port is **5000**.
 **Note**, you have to remove proxy configuration option in your config file. I
 write it here for illustrating all valid config options.
 
+# Configuration file example
+
+```json
+{
+    "general": {
+        "download_dir": "/tmp/youtube_dl",
+        "db_path": "/tmp/youtube_dl_webui.db",
+        "log_size": 10
+    },
+    "server": {
+        "host": "0.0.0.0",
+        "port": 5000
+    },
+    "youtube_dl": {
+        "format": "bestaudio/best",
+        "proxy": "socks5://127.0.0.1:1080"
+    }
+}
+```
+
 # Docker image
 
 There also exists a docker image to easy the deployment. Check [HERE][4] for
