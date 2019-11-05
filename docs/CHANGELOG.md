@@ -27,6 +27,6 @@ Lot of updates here in this new version.
 
 Some bugs fix.
 
-## 0.2.2
+## 0.2.3
 
 Updated youtube-dl and fixed issues with updating.

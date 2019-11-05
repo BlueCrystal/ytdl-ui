@@ -1,4 +1,4 @@
-# youtube-dl-webui
+# ytdl-ui
 
 Another webui for youtube-dl powered by Flask.
 
@@ -18,7 +18,7 @@ very 'light'.
 
 # Screenshot
 
-![screenshot1](screen_shot/1.gif)
+![screenshot1](docs/images/screencast.gif)
 
 # Prerequisite
 
@@ -31,15 +31,15 @@ processing. Lack of ffmpeg may case some funtions not working.
 
 # Install
 
-To install youtube-dl-webui, you have to firstly install [youtube-dl][1] and
+To install `ytdl-ui`, you have to firstly install [youtube-dl][1] and
 [Flask][3], then simply execute the following command:
 
     python setup.py install
 
 # How to use
 
-Defaultly, youtube-dl-webui will find the configuration file in `/etc`
-directory named `youtube-dl-webui.conf`. The configuration file, however,
+Defaultly, `ytdl-ui` will find the configuration file in `/etc`
+directory named `ytdl-ui.json`. The configuration file, however,
 need not to be always placed in such a place. Instead, the `-c` option is
 used to point out the configuration file.
 
@@ -50,7 +50,7 @@ Currently, not to much options available, use `-h` to find out all of them.
 
 After everything is ready, simply execute:
 
-    youtube-dl-webui -c CONFIGURATION_FILE
+    ytdl-ui -c CONFIGURATION_FILE
 
 A server will be started locally. The default port is **5000**.
 
@@ -79,13 +79,12 @@ write it here for illustrating all valid config options.
 
 # Docker image
 
-There also exists a docker image to easy the deployment. Check [HERE][4] for
-more.
+There also exists a docker image to easy the deployment. Check [HERE][4] for more.
 
 ---
 
 [1]: https://github.com/rg3/youtube-dl
 [2]: https://github.com/avignat/Youtube-dl-WebUI
 [3]: https://github.com/pallets/flask
-[4]: https://hub.docker.com/r/d0u9/youtube-dl-webui/
+[4]: https://hub.docker.com/r/squizduos/ytdl-ui/
 
