@@ -8,7 +8,7 @@ LONG_DESCRIPTION = 'Another webui for youtube-dl, powered by youtube-dl'
 
 setup (
         name='ytdl_ui',
-        version='0.2.2',
+        version='0.2.3',
         packages=['ytdl_ui'],
         license='GPL-2.0',
         author='squizduos, d0u9, yuanyingfeiyu',
